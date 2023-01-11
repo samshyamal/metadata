@@ -4,6 +4,19 @@
     <eventType>HighVolume</eventType>
     <label>Irrigation Alert</label>
     <pluralLabel>Irrigation Alerts</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+    <fields>
+        <fullName>Field_Id__c</fullName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Field Id</label>
+        <length>18</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>Alert_Text__c</fullName>
         <externalId>false</externalId>
@@ -25,17 +38,5 @@
         <isSortingDisabled>false</isSortingDisabled>
         <label>Exceeds Acceptable Overrides</label>
         <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Field_Id__c</fullName>
-        <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
-        <isNameField>false</isNameField>
-        <isSortingDisabled>false</isSortingDisabled>
-        <label>Field Id</label>
-        <length>18</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
 </CustomObject>

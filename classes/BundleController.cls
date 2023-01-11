@@ -12,7 +12,7 @@ global with sharing class BundleController {
                 Qty__c
             FROM Bundle_Item__c
             WHERE Bundle__c = :bundleId
-            WITH SECURITY
+            WITH SECURITY_ENFORCED
         ];
     }
 }

@@ -4,6 +4,7 @@
     <eventType>HighVolume</eventType>
     <label>Bundle Unsubmitted</label>
     <pluralLabel>Bundles Unsubmitted</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
     <fields>
         <fullName>Bundle_Id__c</fullName>
         <externalId>false</externalId>

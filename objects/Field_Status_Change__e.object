@@ -4,18 +4,7 @@
     <eventType>HighVolume</eventType>
     <label>Field Status Change</label>
     <pluralLabel>Field Status Changes</pluralLabel>
-    <fields>
-        <fullName>Field_Id__c</fullName>
-        <externalId>false</externalId>
-        <isFilteringDisabled>false</isFilteringDisabled>
-        <isNameField>false</isNameField>
-        <isSortingDisabled>false</isSortingDisabled>
-        <label>Field Id</label>
-        <length>18</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+    <publishBehavior>PublishImmediately</publishBehavior>
     <fields>
         <fullName>Status__c</fullName>
         <externalId>false</externalId>
@@ -23,6 +12,18 @@
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
         <label>Status</label>
+        <length>18</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Id__c</fullName>
+        <externalId>false</externalId>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Field Id</label>
         <length>18</length>
         <required>false</required>
         <type>Text</type>

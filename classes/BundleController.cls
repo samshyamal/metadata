@@ -11,7 +11,7 @@ global with sharing class BundleController {
                 Merchandise__r.Picture_URL__c,
                 Qty__c
             FROM Bundle_Item__c
-            WHERE Bundle__c = :bundleId
+            WHERE Bundle__c = :bundleId 
             WITH SECURITY_ENFORCED
         ];
     }
